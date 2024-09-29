@@ -9,7 +9,7 @@ const ApiKeyPage = () => {
   const { apiKey, setApiKey } = useApiKeyContext();
   const [apiKeyInput, setApiKeyInput] = useState(apiKey);
 
-  // Function to open the OpenAI API keys page in a browser
+  // Function to launch the OpenAI API keys page in a web browser
   const openApiKeysPage = () => {
     WebBrowser.openBrowserAsync('https://platform.openai.com/api-keys');
   };
